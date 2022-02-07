@@ -84,7 +84,6 @@ function Desktop() {
         x: data.x,
         y: data.y
       })
-      // mock onClick event, use lastX compare with this X, and lastY compare with this Y, if them is equal, do click, other do drag
       if (lastX === data.x && lastY === data.y) {
         window.location.href = spotifyi
       }
@@ -102,7 +101,6 @@ function Desktop() {
         x: data.x,
         y: data.y
       })
-      // mock onClick event, use lastX compare with this X, and lastY compare with this Y, if them is equal, do click, other do drag
       if (lastX === data.x && lastY === data.y) {
         window.location.href = instagrami
       }

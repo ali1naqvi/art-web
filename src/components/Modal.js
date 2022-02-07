@@ -122,9 +122,11 @@ export const Modal = ({showModal, setShowModal}) => {
                                     allowfullscreen="allowfullscreen"></iframe>
                             <p>NOTE</p>
                             <p>
-                                Since the most popular genre in North America is hip-hop, many of my videos
-                                are overlayed by trending songs to attract a large crowd. I removed many because of the explicit lyrics which is why you are
-                                viewing a very limited amount of embeded videos :)
+                                Since hip-hop is the most dominant genre in North America,
+                                many of my videos have these songs embedded within them to
+                                attract the general population. However, you are viewing a
+                                select few, as many of these songs carry explicit lyrics.
+                                thank you for viewing :)
                             </p>
                 </ModalContent>
             </ModalWrapper>
