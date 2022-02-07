@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/art-web/static/css/main.d7130e43.chunk.css",
-    "main.js": "/art-web/static/js/main.db23cd8a.chunk.js",
-    "main.js.map": "/art-web/static/js/main.db23cd8a.chunk.js.map",
-    "runtime-main.js": "/art-web/static/js/runtime-main.7ac6ab9b.js",
-    "runtime-main.js.map": "/art-web/static/js/runtime-main.7ac6ab9b.js.map",
-    "static/js/2.f4c1c4c7.chunk.js": "/art-web/static/js/2.f4c1c4c7.chunk.js",
-    "static/js/2.f4c1c4c7.chunk.js.map": "/art-web/static/js/2.f4c1c4c7.chunk.js.map",
-    "static/js/3.c8c89461.chunk.js": "/art-web/static/js/3.c8c89461.chunk.js",
-    "static/js/3.c8c89461.chunk.js.map": "/art-web/static/js/3.c8c89461.chunk.js.map",
+    "main.css": "/art-web/static/css/main.a9d6f73b.chunk.css",
+    "main.js": "/art-web/static/js/main.e86895e1.chunk.js",
+    "main.js.map": "/art-web/static/js/main.e86895e1.chunk.js.map",
+    "runtime-main.js": "/art-web/static/js/runtime-main.d3af1638.js",
+    "runtime-main.js.map": "/art-web/static/js/runtime-main.d3af1638.js.map",
+    "static/js/2.6095d4a1.chunk.js": "/art-web/static/js/2.6095d4a1.chunk.js",
+    "static/js/2.6095d4a1.chunk.js.map": "/art-web/static/js/2.6095d4a1.chunk.js.map",
+    "static/js/3.112fe7e6.chunk.js": "/art-web/static/js/3.112fe7e6.chunk.js",
+    "static/js/3.112fe7e6.chunk.js.map": "/art-web/static/js/3.112fe7e6.chunk.js.map",
     "index.html": "/art-web/index.html",
-    "static/css/main.d7130e43.chunk.css.map": "/art-web/static/css/main.d7130e43.chunk.css.map",
-    "static/js/2.f4c1c4c7.chunk.js.LICENSE.txt": "/art-web/static/js/2.f4c1c4c7.chunk.js.LICENSE.txt",
+    "static/css/main.a9d6f73b.chunk.css.map": "/art-web/static/css/main.a9d6f73b.chunk.css.map",
+    "static/js/2.6095d4a1.chunk.js.LICENSE.txt": "/art-web/static/js/2.6095d4a1.chunk.js.LICENSE.txt",
     "static/media/1.810956c1.jpg": "/art-web/static/media/1.810956c1.jpg",
     "static/media/2.c3e10b46.jpg": "/art-web/static/media/2.c3e10b46.jpg",
     "static/media/3.9aba6978.jpg": "/art-web/static/media/3.9aba6978.jpg",
@@ -27,9 +27,9 @@
     "static/media/spotify.d396a4d6.png": "/art-web/static/media/spotify.d396a4d6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7ac6ab9b.js",
-    "static/js/2.f4c1c4c7.chunk.js",
-    "static/css/main.d7130e43.chunk.css",
-    "static/js/main.db23cd8a.chunk.js"
+    "static/js/runtime-main.d3af1638.js",
+    "static/js/2.6095d4a1.chunk.js",
+    "static/css/main.a9d6f73b.chunk.css",
+    "static/js/main.e86895e1.chunk.js"
   ]
 }
