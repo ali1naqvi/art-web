@@ -1,0 +1,62 @@
+#top-pic-writing {
+    overflow:hidden;
+    height: 40vh;
+    min-width:100%;
+    flex-direction: 1;
+}
+
+#top-pic-writing > img {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    object-fit: cover;
+}
+
+#written-sec {
+    display:flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    padding-left: 1.5em;
+    height: 0;
+    color: white; 
+    font-weight: bold;
+}
+
+#subtit {
+    margin: 0;
+    display: inline-grid;
+    gap: 4px;
+    grid-template-columns: auto 1fr;
+    margin-left: 2.2vh;
+} 
+
+#name {
+    text-align: left;
+    display: flex;
+    flex: 0.5;
+    padding: 0.08em 0px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 3vh;
+    font-size: 96px;
+    font-weight: 799;
+    letter-spacing: -.07em;
+}
+
+@media screen and (max-width: 413px){
+    #name {
+        font-size:80px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    #name {
+        font-size:70px;
+    }
+}
+
+@media screen and (max-width: 303px){
+    #name {
+        font-size:60px;
+    }
+}

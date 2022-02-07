@@ -1,0 +1,69 @@
+
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content:flex-start;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    background-color: #020202;
+    z-index: 10000;
+    box-shadow: 100px 5px 10px #000000;
+}
+
+
+.footer-left {
+    flex: 0.3;
+    margin-right: 3vh;
+    display: flex;
+    align-items: center;
+    color: rgb(204, 204, 204);
+    width: 300px;
+}
+
+.makeStyles-root-100 {
+    background: transparent !important;
+    color: transparent !important;
+    background-color: transparent !important;
+    width:auto !important;
+    height: 100%;
+}
+
+.makeStyles-volumeControlContainer-52 {
+   display: none !important;
+   width: 0px !important;
+   padding: 0px !important;
+   margin: 0px !important;
+}
+@media (min-width: 600px){
+.makeStyles-volumeControlContainer-52 {
+    height: 0px !important;
+}
+}
+
+@media screen and (max-width: 800px){
+    .makeStyles-root-39 {
+        transform: scale(0.95);
+    }
+    
+}
+
+
+.footer-albumLogo {
+    height: 60px;
+    width: 60px;
+    padding-left: 8px;
+    object-fit: contain;
+}
+
+.footer-green {
+    animation: iconsc 15s alternate infinite;
+  }
+
+.footer-songInfo h4{
+    margin-bottom: 5px;
+}
+
+.footer-songInfo p{
+    font-size: 12px;
+}

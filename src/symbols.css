@@ -1,0 +1,21 @@
+#each-icon{
+    margin:0;
+    border: 0;
+    padding: 0;
+    width: 10vh;
+    text-align: center;
+}
+
+#each-icon:hover {
+    cursor:move;
+}
+
+#icons-pic{
+    width: 10vh !important;
+    flex:auto;
+    margin: 0;
+}
+
+#icon-name{
+    margin: 0;
+}

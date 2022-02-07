@@ -1,0 +1,37 @@
+.loader-body {
+  z-index: 1000000000000;
+    margin: 0;
+    padding: 0;
+    width:50vh;
+    height: 100vh;
+    overflow:none;
+    background-color: rgb(0, 0, 0);
+    
+}
+  
+  .earth {
+    display: inline-block;
+    content: '🌏';
+    font-size: 85px;
+    animation: loader 2s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  @keyframes loader{
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+
+  body {
+    margin: 0;
+    background: rgba(0, 0, 0, .95);
+  }
+  

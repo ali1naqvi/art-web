@@ -1,0 +1,192 @@
+desktop {
+    display: flex;
+    height: 60vh !important;
+    box-shadow: 0px 0px 10px black;
+    background-image: 
+        linear-gradient(to top, transparent, black),    
+        linear-gradient(to bottom,  rgb(0, 0, 0), rgb(206, 0, 189),black, rgb(0, 0, 255));
+    animation: move 15s alternate infinite;
+    background-size: 400% 400%;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y:hidden;
+}
+
+.footer {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    height: 85px !important;
+    width: 100%;
+    background-color: #020202;
+    z-index: 30;
+    box-shadow: 100px 5px 10px #000000;
+    
+}
+
+.MuiTypography-body1 {
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+
+@media all and (min-width:0px) and (max-width: 1024px) {
+    .MuiTypography-body1{
+    padding-top: 6px;    
+    }
+}
+
+@keyframes iconsc {
+    from {color: #d11ed1}
+    to {color: #211ed1}
+}
+
+
+#pic{
+    width: 12vh;
+    height: 12vh;
+    cursor: move;
+}
+
+.tsparticles-canvas-el{
+    max-width:100%;
+    height: 100%;
+    width: 100%;
+}
+
+desktop::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
+
+#Symb {
+    width: 100%;
+    display: flex;
+    margin-top: 5vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#each-icon{
+    justify-self: center;
+    padding: 0;
+    height: 0%;
+    width: 12vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#icon-name{
+    margin-bottom: 0;
+    padding: 0;
+}
+
+
+.footer-left {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    color: rgb(204, 204, 204);
+    width: 300px;
+}
+
+.footer-albumLogo {
+    height: 60px;
+    width: 60px;
+    margin-right: 2vh;
+    object-fit: contain;
+}
+
+.footer-green {
+    animation: iconsc 15s alternate infinite;
+  }
+
+.footer-songInfo h4{
+    margin-bottom: 5px;
+}
+
+.footer-songInfo p{
+    font-size: 12px;
+}
+
+.footer-icon {
+    transform: scale(1.2)
+}
+
+.footer-icon:hover, .footer-green:hover {
+    transition: transform 0.2s ease-in-out; 
+    transform: scale(1.5) !important;
+}
+.footer-right {
+    flex: 0.3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+
+@keyframes move {
+    from {background-position: top center, top center;}
+    to {background-position: bottom center, bottom center;}
+}
+
+.notes{
+    width: 8vh !important;
+    height: 12vh !important;
+    margin: 0px !important;
+}
+
+
+@media screen and (max-width: 960px){
+    .footer-left {
+        transform: scale(0.95);
+    }
+    .makeStyles-playIcon-50 {
+        transform: scale(0.95);
+    }
+    .makeStyles-volumeIcon-53 {
+        transform: scale(0.95);
+    }
+}
+
+@media screen and (max-width: 810px){
+
+
+    #pic{
+        height: 8vh;
+        width: 8vh;
+    }
+    #icon-name{
+       
+        font-size: 13px;
+        width: 8vh;
+    }
+    #each-icon{
+        width: 8vh;
+    }
+
+    #each-icon{
+        padding-left: 15px; 
+        padding-right: 15px;
+     }
+    
+     .notes{
+         height: 8vh !important;
+     }
+
+}
+
+@media screen and (max-width: 700px){
+    #each-icon {
+       padding-left: 20px; 
+       padding-right: 20px;
+    }
+
+    desktop {
+        height: 49vh !important;
+    }
+
+}
